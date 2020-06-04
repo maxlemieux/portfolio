@@ -3,16 +3,16 @@ import './App.css';
 import MainContent from './components/MainContent.js';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
-import { PortfolioProvider } from './utils/GlobalState';
+import { PageProvider } from './utils/GlobalState';
 
 function App() {
   return (
     <div className="container text-center">
-      <PortfolioProvider>
+      <PageProvider>
         <Header />
         <MainContent />
         <Footer />
-     </PortfolioProvider>
+     </PageProvider>
     </div>
   );
 }

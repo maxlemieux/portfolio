@@ -1,41 +1,28 @@
 import React, { createContext, useReducer, useContext } from "react";
 
-const PortfolioContext = createContext();
-const { Provider } = PortfolioContext;
+const PageContext = createContext();
+const { Provider } = PageContext;
 
 
 const reducer = (state, action) => {
   switch (action.type) {
     case "set":
-      return 'foo';
-    case "add":
-      return [
-        ...state,
-        {
-          id: state.length * Math.random(),
-          name: action.name
-        }
-      ];
-      // Bonus: Remove a todo from the list.
-    case "remove":
-      return state.filter((_, index) => {
-        return index !== action.index;
-      });
+      return {page: action.page};
     default:
       return state;
   }
 };
 
-const PortfolioProvider = ({value=[], ...props}) => {
-  const [state, dispatch] = useReducer(reducer, []);
+const PageProvider = ({value="index", ...props}) => {
+  const [state, dispatch] = useReducer(reducer, {page: value});
   return <Provider value={[state, dispatch]} {...props} />
 } ;
 
-const usePortfolioContext = () => {
-  return useContext(PortfolioContext);
+const usePageContext = () => {
+  return useContext(PageContext);
 }
 
 export {
-  PortfolioProvider,
-  usePortfolioContext
+  PageProvider,
+  usePageContext
 };
