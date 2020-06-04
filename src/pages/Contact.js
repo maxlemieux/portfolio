@@ -3,12 +3,12 @@ import React from 'react';
 export default function Contact() {
   return (
     <main>
-      <div class="jumbotron">
-        <h1 class="display-4">Contact</h1>
+      <div className="jumbotron">
+        <h1 className="display-4">Contact</h1>
       </div>
-      <div class="row">
-        <div class="col-lg-7 offset-lg-1 col-sm-12">
-          <div class="border container rounded bg-light mt-3 p-3 mx-auto">  
+      <div className="row">
+        <div className="col-lg-7 offset-lg-1 col-sm-12">
+          <div className="border container rounded bg-light mt-3 p-3 mx-auto">  
             <h3>GitHub</h3>
             <p><a href="https://github.com/maxlemieux">https://github.com/maxlemieux</a></p>
             <h3>LinkedIn</h3>

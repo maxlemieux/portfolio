@@ -16,6 +16,7 @@ const components = {
 export default function PageContainer() {
   const [state, dispatch] = usePageContext();
   const Page = components[state.page];
+  console.log(Page)
   return (
     <>
       <p>Current page dynamic value: {state.page}</p>
