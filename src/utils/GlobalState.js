@@ -1,7 +1,6 @@
 import React, { createContext, useReducer, useContext } from "react";
 
-const PageContext = createContext();
-const { Provider } = PageContext;
+const PageContext = createContext({ page: 'index' });
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -14,8 +13,8 @@ const reducer = (state, action) => {
 
 const PageProvider = ({ value="index", ...props }) => {
   const [state, dispatch] = useReducer(reducer, { page: value });
-  
-  return <Provider value={[state, dispatch]} {...props} />
+
+  return <PageContext.Provider value={[state, dispatch]} {...props} />
 } ;
 
 const usePageContext = () => {
