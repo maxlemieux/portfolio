@@ -12,14 +12,17 @@ export default function Header() {
         </div>
         <div className="order-3 navbar-expand text-center text-md-right">
           <ul className="navbar-nav">
-            <li className="nav-item active" onClick={() => dispatch({ type: "set", page: "About" })}>
-                <a className="nav-link" href="index.html">About</a>
+            <li className="nav-item active" onClick={() => dispatch({ type: "set", page: "index" })}>
+                {/* <a className="nav-link" href="index.html">About</a> */}
+                <span className="nav-link">About</span>
             </li>
-            <li className="nav-item" onClick={() => dispatch({ type: "set", page: "Portfolio" })}>
-                <a className="nav-link" href="portfolio.html">Portfolio</a>
+            <li className="nav-item" onClick={() => dispatch({ type: "set", page: "portfolio" })}>
+                {/* <a className="nav-link" href="portfolio.html">Portfolio</a> */}
+                <span className="nav-link">Portfolio</span>
             </li>
-            <li className="nav-item" onClick={() => dispatch({ type: "set", page: "Contact" })}>
-                <a className="nav-link" href="contact.html">Contact</a>
+            <li className="nav-item" onClick={() => dispatch({ type: "set", page: "contact" })}>
+                {/* <a className="nav-link" href="contact.html">Contact</a> */}
+                <span className="nav-link">Contact</span>
             </li>
           </ul>
         </div>
