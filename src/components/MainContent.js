@@ -1,24 +1,19 @@
 import React from 'react';
 
-import { usePageContext } from "../utils/GlobalState";
-// import Index from '../pages/Index';
-// import Contact from '../pages/Index';
-// import Portfolio from '../pages/Index';
-import PageContainer from '../components/PageContainer';
+import Contact from '../pages/Contact';
+import Index from '../pages/Index';
+import Portfolio from '../pages/Portfolio'
 
-// bridge object - JSX needs a component, not a string
-// const components = {
-//   index: Index,
-//   contact: Contact,
-//   portfolio: Portfolio,
-// }
+const components = {
+  contact: Contact,
+  index: Index,
+  portfolio: Portfolio,
+}
 
-export default function MainContent() {
-  const [state, dispatch] = usePageContext();
-
-  // const Page = components[state.page];
+export default function MainContent(props) {
+  const Page = components[props.page];
 
   return (
-    <PageContainer />
+    <Page />
   )
 }

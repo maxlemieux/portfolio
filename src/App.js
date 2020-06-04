@@ -1,19 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './App.css';
-import MainContent from './components/MainContent.js';
-import Header from './components/Header.js';
-import Footer from './components/Footer.js';
-import { PageProvider } from './utils/GlobalState';
 
-export default function App() {
+import Header from './components/Header';
+import Footer from './components/Footer';
+import MainContent from './components/MainContent';
+
+
+const App = () => {
+  const [state, setState] = useState({
+    page: 'index'
+  });
+
   return (
     <div className="container text-center">
-      <PageProvider>
-        <Header />
-        <MainContent />
-        <Footer />
-     </PageProvider>
+      <Header page={state.page} setState={setState}/>
+      <MainContent page={state.page}/>
+      <Footer />
     </div>
   );
 }
+
+export default App;
