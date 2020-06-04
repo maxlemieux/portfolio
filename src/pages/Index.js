@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Index() {
+const Index = () => {
   return (
     <main>
       <div className="jumbotron">
@@ -49,3 +49,5 @@ export default function Index() {
   </main>
   )
 }
+
+export default Index;

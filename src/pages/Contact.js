@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Contact() {
+const Contact = () => {
   return (
     <main>
       <div className="jumbotron">
@@ -26,3 +26,5 @@ export default function Contact() {
     </main> 
   )
 };
+
+export default Contact;

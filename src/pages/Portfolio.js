@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Portfolio() {
+const Portfolio = () => {
   return (
     <main>
       <div className="jumbotron">
@@ -178,3 +178,5 @@ export default function Portfolio() {
         </main>
   )
 };
+
+export default Portfolio;

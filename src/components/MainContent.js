@@ -10,10 +10,12 @@ const components = {
   portfolio: Portfolio,
 }
 
-export default function MainContent(props) {
+const MainContent = (props) => {
   const Page = components[props.page];
 
   return (
     <Page />
   )
 }
+
+export default MainContent;
