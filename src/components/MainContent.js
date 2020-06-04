@@ -1,5 +1,6 @@
 import React from 'react';
-import { usePageContext, PageProvider } from "../utils/GlobalState";
+
+import { usePageContext } from "../utils/GlobalState";
 import Index from '../pages/Index';
 import Contact from '../pages/Index';
 import Portfolio from '../pages/Index';
