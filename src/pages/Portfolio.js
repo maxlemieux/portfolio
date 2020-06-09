@@ -1,12 +1,15 @@
 import React from 'react';
 
+import Projects from '../utils/projects.json';
+
 const Portfolio = () => {
+  console.log(Projects)
   return (
     <main>
       <div className="jumbotron">
           <h1 className="display-4">Portfolio</h1>
           <hr />
-          <p className="lead">A sample of recent work, with a focus on Node.js app development.</p>
+          <p className="lead">A sample of recent work, with a focus on React and Node.js app development.</p>
       </div>
         <div className="container">
           <div className="row">

@@ -6,11 +6,11 @@ const Index = () => {
       <div className="jumbotron">
           <h1 className="display-4">Max Lemieux</h1>
           <h4>
-              <span className="badge badge-primary"><i className="fas fa-cubes"></i> JavaScript</span>
+              <span className="badge badge-info"><i className="fab fa-react"></i> React</span>
+              <span className="badge badge-primary"><i className="fab fa-js-square"></i> JavaScript</span>
               <span className="badge badge-warning"><i className="fab fa-node"></i> Node/Express</span>
-              <span className="badge badge-info"><i className="fab fa-python"></i> React</span>
-              <span className="badge badge-secondary"><i className="fas fa-layer-group"></i> Django</span>
               <span className="badge badge-dark"><i className="fas fa-cloud"></i> Heroku</span>
+              <span className="badge badge-secondary"><i className="fas fa-layer-group"></i> Django</span>
           </h4>
           <p className="lead">Full Stack Software Engineer - Portland, OR</p>
       </div>

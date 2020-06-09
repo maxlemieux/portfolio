@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "name": "foo",
+      "image": "url"
+    },
+    {
+      "description": "Awesome sauce", 
+      "image": "",
+      "name": "",
+      "technologies": "",
+      "repo": "",
+      "demo": ""
+    }
+  ]
+}
