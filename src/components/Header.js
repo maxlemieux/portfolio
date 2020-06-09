@@ -5,7 +5,7 @@ const Header = (props) => {
     <header>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark py-0 justify-content-center">
         <div className="w-100 order-1 text-center text-md-left">
-            <a className="navbar-brand bg-info px-3" href="index.html">Max Lemieux</a>
+            <a className="navbar-brand bg-info px-3" href="/">Max Lemieux</a>
         </div>
         <div className="order-3 navbar-expand text-center text-md-right">
           <ul className="navbar-nav">

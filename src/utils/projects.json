@@ -1,16 +1,76 @@
 {
   "projects": [
     {
-      "name": "foo",
-      "image": "url"
+      "description": "Cangaroo is a Food Bank inventory management system. This application was created by Andy J Chen, Ian Johnson, Max Lemieux and Corey Walker.", 
+      "image": "assets/images/portfolio08-cangaroo.png",
+      "name": "Cangaroo",
+      "technologies": [
+        "Express.js/Node.js",
+        "Handlebars/Bulma",
+        "Heroku/JawsDB/MySQL",
+        "Verifalia"
+      ],
+      "repo": "https://github.com/cwalker226/cangaroo",
+      "demo": "https://cangaroo.herokuapp.com/"
     },
     {
-      "description": "Awesome sauce", 
+      "description": "node-employee-db is a CLI app built in Node.js. Stores organizational structure in a MySQL database.",
       "image": "",
-      "name": "",
-      "technologies": "",
-      "repo": "",
-      "demo": ""
+      "name": "node-employee-db",
+      "technologies": [
+        "Node.js",
+        "Inquirer.js",
+        "MySQL"
+      ],
+      "repo": "https://github.com/maxlemieux/node-employee-db"
+    },
+    {
+      "description": "express-notepad is a note taking app built with Express.js and Node.js. Allows the user to take notes, view them and remove them, in a single page app interface.",
+      "image": "assets/images/portfolio06-expressnotepad.png",
+      "name": "express-notepad",
+      "technologies": [
+        "Express.js",
+        "Node.js",
+        "Bootstrap"
+      ],
+      "repo": "https://github.com/maxlemieux/express-notepad",
+      "demo": "https://immense-eyrie-52876.herokuapp.com/"
+    },
+    {
+      "description": "Wallaby is a single-page application which leverages MealDB and Nutritionix to display nutritional information in the context of a recipe search website. This application was created by Corey Walker, Ian Johnson and Max Lemieux. We used Kanban for project management, while relying heavily on atomic commits and feature branching in Git to coordinate the work.",
+      "image": "assets/images/portfolio01-wallaby.png",
+      "name": "Wallaby",
+      "technologies": [
+        "Nutritionix",
+        "MealDB",
+        "AJAX REST API consumer"
+      ],
+      "repo": "https://github.com/ianbenjohn/Project-1",
+      "demo": "https://ianbenjohn.github.io/Project-1/"
+    },
+    {
+      "description": "engi-team-gen is a CLI app built in Node.js. Creates HTML output visualizing the structure of workplace teams.",
+      "image": "assets/images/portfolio04-engiteamgen.png",
+      "name": "engi-team-gen",
+      "technologies": [
+        "Node.js",
+        "Inquirer.js",
+        "Bootstrap"
+      ],
+      "repo": "https://github.com/maxlemieux/engi-team-gen",
+      "demo": "https://raw.githubusercontent.com/maxlemieux/engi-team-gen/master/demo/engi-team-gen-demo.gif"
+    },
+    {
+      "description": "jsweather is a weather dashboard to quickly browse weather for any city, implemented as a single-page application in JavaScript. It uses the OpenWeatherMap API to fetch data.",
+      "image": "assets/images/portfolio03-jsweather.png",
+      "name": "jsweather",
+      "technologies": [
+        "OpenWeatherMap",
+        "JavaScript",
+        "moment.js"
+      ],
+      "repo": "https://github.com/maxlemieux/jsweather",
+      "demo": "https://maxlemieux.github.com/jsweather/"
     }
   ]
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Project = (props) => {
-  const { description, image, name, technologies, repo, demo } = props;
+  const { description, image, name, technologies, repo, demo } = props.project;
   return (
     <div className="col-sm-6 col-md-6 col-lg-4">
       <div className="card">
