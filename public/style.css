@@ -13,7 +13,7 @@ html {
     min-height: 100%; /* Make sure footer is at bottom of screen on short pages */
 }
 body {
-    background-color: black;
+    background-color: silver;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     padding-bottom: 60px; /* Match the height of the footer */
@@ -27,7 +27,6 @@ footer {
 }
 .jumbotron {
     padding: 1rem 2rem;
-    background: silver;
 }
 
 .card {
