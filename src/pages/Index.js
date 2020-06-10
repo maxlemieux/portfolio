@@ -18,7 +18,7 @@ const Index = () => {
       <div className="container">
           <div className="row">
               <div className="col-lg-4 col-sm-12">
-                <img className="w-100 mb-3 imgFluid" src="./portfolio/assets/images/Selfie Small.png" width="100%" alt="..." />
+                <img className="w-100 mb-3 imgFluid" src="./assets/images/Selfie Small.png" width="100%" alt="..." />
               </div>
               <div className="col-lg-4">
                   <h5>About Max</h5>
