@@ -14,8 +14,20 @@
       "demo": "https://cangaroo.herokuapp.com/"
     },
     {
+      "description": "Wallaby is a single-page application which leverages MealDB and Nutritionix to display nutritional information in the context of a recipe search website. This application was created by Corey Walker, Ian Johnson and Max Lemieux. We used Kanban for project management, while relying heavily on atomic commits and feature branching in Git to coordinate the work.",
+      "image": "assets/images/portfolio01-wallaby.png",
+      "name": "Wallaby",
+      "technologies": [
+        "Nutritionix",
+        "MealDB",
+        "AJAX REST API consumer"
+      ],
+      "repo": "https://github.com/ianbenjohn/Project-1",
+      "demo": "https://ianbenjohn.github.io/Project-1/"
+    },
+    {
       "description": "node-employee-db is a CLI app built in Node.js. Stores organizational structure in a MySQL database.",
-      "image": "",
+      "image": "assets/images/portfolio05-nodeemployeedb.png",
       "name": "node-employee-db",
       "technologies": [
         "Node.js",
@@ -35,18 +47,6 @@
       ],
       "repo": "https://github.com/maxlemieux/express-notepad",
       "demo": "https://immense-eyrie-52876.herokuapp.com/"
-    },
-    {
-      "description": "Wallaby is a single-page application which leverages MealDB and Nutritionix to display nutritional information in the context of a recipe search website. This application was created by Corey Walker, Ian Johnson and Max Lemieux. We used Kanban for project management, while relying heavily on atomic commits and feature branching in Git to coordinate the work.",
-      "image": "assets/images/portfolio01-wallaby.png",
-      "name": "Wallaby",
-      "technologies": [
-        "Nutritionix",
-        "MealDB",
-        "AJAX REST API consumer"
-      ],
-      "repo": "https://github.com/ianbenjohn/Project-1",
-      "demo": "https://ianbenjohn.github.io/Project-1/"
     },
     {
       "description": "engi-team-gen is a CLI app built in Node.js. Creates HTML output visualizing the structure of workplace teams.",

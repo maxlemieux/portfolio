@@ -9,6 +9,7 @@ const Index = () => {
               <span className="badge badge-info"><i className="fab fa-react"></i> React</span>
               <span className="badge badge-primary"><i className="fab fa-js-square"></i> JavaScript</span>
               <span className="badge badge-warning"><i className="fab fa-node"></i> Node/Express</span>
+              <span className="badge badge-light"><i className="fas fa-database"></i> MongoDB</span>
               <span className="badge badge-dark"><i className="fas fa-cloud"></i> Heroku</span>
               <span className="badge badge-secondary"><i className="fas fa-layer-group"></i> Django</span>
           </h4>
@@ -17,11 +18,11 @@ const Index = () => {
       <div className="container">
           <div className="row">
               <div className="col-lg-4 col-sm-12">
-                  <img className="w-100 mb-3 imgFluid" src="./Selfie Small.png" width="100%" alt="..." />
+                <img className="w-100 mb-3 imgFluid" src="./portfolio/assets/images/Selfie Small.png" width="100%" alt="..." />
               </div>
               <div className="col-lg-4">
                   <h5>About Max</h5>
-                  <p>Max is a software developer who works with people to build amazing websites.</p>
+                  <p>Max is a software developer who works with people to build dynamic websites.</p>
                   <p>Max believes code should be beautiful, as well as useful.</p>
                   <p>Max has supported emerging industries with tailored solutions for understanding customer needs.</p>
                   <p>Max is a trained JavaScript programmer with a background in database-driven applications.</p>
