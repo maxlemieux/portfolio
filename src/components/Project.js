@@ -11,10 +11,11 @@ const Project = (props) => {
           <p className="card-text">{description}</p>
         </div>
         <ul className="list-group list-group-flush">
-          <li className="list-group-item">Express.js/Node.js</li>
-          <li className="list-group-item">Handlebars/Bulma</li>
-          <li className="list-group-item">Heroku/JawsDB/MySQL</li>
-          <li className="list-group-item">Verifalia</li>
+          {technologies.map(item => {
+            return (
+            <li className="list-group-item">{item}</li>
+            )
+          })}
         </ul>
         <div className="card-body">
           <a href={repo} className="card-link">Browse code</a>
