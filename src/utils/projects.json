@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "description": "Quokka is a Social Gardening app that recommends you plants for your frost zone and lets you see other people's favorites.",
+      "description": "Quokka is a Social Gardening app that recommends plants for your frost zone and lets you see other people's favorites in real time.",
       "image": "assets/images/Quokka-Screenshot-07-02-2020.png",
       "name": "Quokka",
       "technologies": [
