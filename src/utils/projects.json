@@ -1,12 +1,13 @@
 {
   "projects": [
     {
-      "description": "Quokka is a Social Gardening app that recommends plants for your frost zone and lets you see other people's favorites in real time.",
+      "description": "Quokka is a Social Gardening app that recommends plants for your frost zone and lets you see other people's favorites in real time. This app was created by Andy J Chen, Ian Johnson, and Max Lemieux.",
       "image": "assets/images/Quokka-Screenshot-07-02-2020.png",
       "name": "Quokka",
       "technologies": [
         "Trefle.io",
         "Frostline/PRISM",
+        "Maxmind/GeoLite 2",
         "Passport.js",
         "React.js",
         "React Router",
@@ -18,7 +19,7 @@
       "demo": "https://boiling-peak-23377.herokuapp.com/"
     },
     {
-      "description": "Cangaroo is a Food Bank inventory management system. This application was created by Andy J Chen, Ian Johnson, Max Lemieux and Corey Walker.", 
+      "description": "Cangaroo is a Food Bank inventory management system. This app was created by Andy J Chen, Ian Johnson, Max Lemieux and Corey Walker.", 
       "image": "assets/images/portfolio08-cangaroo.png",
       "name": "Cangaroo",
       "technologies": [
