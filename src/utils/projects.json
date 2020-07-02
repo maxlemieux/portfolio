@@ -7,10 +7,12 @@
       "technologies": [
         "Trefle.io",
         "Frostline/PRISM",
+        "Passport.js",
         "React.js",
         "React Router",
         "React Hooks",
-        "Node.js"
+        "Node.js",
+        "MongoDB"
       ],
       "repo": "https://github.com/maxlemieux/quokka",
       "demo": "https://boiling-peak-23377.herokuapp.com/"
