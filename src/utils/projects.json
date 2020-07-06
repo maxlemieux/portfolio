@@ -16,7 +16,7 @@
         "MongoDB"
       ],
       "repo": "https://github.com/maxlemieux/quokka",
-      "demo": "https://boiling-peak-23377.herokuapp.com/"
+      "demo": "http://quokka-social-gardening.herokuapp.com/"
     },
     {
       "description": "Cangaroo is a Food Bank inventory management system. This app was created by Andy J Chen, Ian Johnson, Max Lemieux and Corey Walker.", 
