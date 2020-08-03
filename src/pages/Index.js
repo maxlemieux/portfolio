@@ -21,11 +21,11 @@ const Index = () => {
                 <img className="w-100 mb-3 imgFluid" src="./assets/images/Selfie Small.png" width="100%" alt="..." />
               </div>
               <div className="col-lg-4">
-                  <h5>About Max</h5>
-                  <p>Max is a software developer who works with people to build amazing applications.</p>
-                  <p>Max believes code should be beautiful, as well as useful.</p>
-                  <p>Max has supported emerging industries with tailored solutions for understanding customer needs.</p>
-                  <p>Max is experienced with React.js, ES6 JavaScript, and SQL, earning a certificate in Full Stack Web Development from the University of Oregon.</p>
+                  <h5>About me</h5>
+                  <p>I am a software developer who works with people to build amazing applications.</p>
+                  <p>I believe code should be beautiful, as well as useful.</p>
+                  <p>I have supported emerging industries with tailored solutions for understanding customer needs.</p>
+                  <p>I am experienced with React.js, ES6 JavaScript, Django and SQL, and have earned a certificate in Full Stack Web Development from the University of Oregon.</p>
               </div>
               <div className="col-lg-4">
                   <div className="card m-2">
