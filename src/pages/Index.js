@@ -22,10 +22,10 @@ const Index = () => {
               </div>
               <div className="col-lg-4">
                   <h5>About Max</h5>
-                  <p>Max is a software developer who works with people to build dynamic websites.</p>
+                  <p>Max is a software developer who works with people to build amazing applications.</p>
                   <p>Max believes code should be beautiful, as well as useful.</p>
                   <p>Max has supported emerging industries with tailored solutions for understanding customer needs.</p>
-                  <p>Max is a trained JavaScript programmer with a background in database-driven applications.</p>
+                  <p>Max is experienced with React.js, ES6 JavaScript, and SQL, earning a certificate in Full Stack Web Development from the University of Oregon.</p>
               </div>
               <div className="col-lg-4">
                   <div className="card m-2">
