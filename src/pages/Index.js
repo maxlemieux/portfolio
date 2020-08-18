@@ -26,7 +26,7 @@ const Index = () => {
                 <p>As a creator, I enjoy building projects from start to finish. Systems engineering has prepared me to consider scale and edge cases in my work.</p>
                 <p>Connecting resources to add value is something that interests me. As part of a team of 3, I recently created a location based recommendation service for gardeners to find plants to grow in their climate. I created internal APIs which utilize external services to provide realtime search results for plant data.</p>
                 <p>Outside of work time, I’m probably in the garden, hiking on a forest trail, trying a new recipe in the kitchen, or checking out new technologies. </p>
-                <p>I look forward to applying my energies towards a better future for all. If you have an opportunity that you think would be a good fit, please reach out here.</p>
+                <p>I look forward to applying my energies towards a better future for all. If you have an opportunity that you think would be a good fit, you can reach me <a href='mailto:max.lemieux@gmail.com'>here</a>.</p>
               </div>
               <div className="col-lg-4">
                   <div className="card m-2">
