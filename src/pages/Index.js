@@ -31,7 +31,7 @@ const Index = () => {
                   <div className="card m-2">
                       <div className="card-body">
                           <h2 className="card-title">C.V.</h2>
-                          <a href="https://drive.google.com/open?id=1NjjBtJaCl-zi9U1oK6hShtT3L6sAS7-j">Max Lemieux</a>
+                          <a href="https://drive.google.com/file/d/1WSzyBHg-IcmDQsnvKuKXAaxUorcNiciy/view?usp=sharing">Max Lemieux</a>
                       </div>
                   </div>
                   <div className="card m-2">
