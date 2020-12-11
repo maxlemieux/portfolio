@@ -13,7 +13,7 @@ const Project = (props) => {
         <ul className="list-group list-group-flush">
           {technologies.map(item => {
             return (
-            <li className="list-group-item">{item}</li>
+            <li style={{backgroundColor: 'black'}} className="list-group-item">{item}</li>
             )
           })}
         </ul>
