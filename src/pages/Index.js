@@ -17,7 +17,7 @@ const Index = () => {
       </div>
       <div className="container">
           <div className="row">
-              <div className="col-lg-4 col-sm-12">
+              <div className="col-lg-4 col-sm-4">
                 <img className="w-100 mb-3 imgFluid" src="./assets/images/Selfie Small.png" width="100%" alt="..." />
               </div>
               <div className="col-lg-4">
