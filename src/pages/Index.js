@@ -24,7 +24,7 @@ const Index = () => {
                 <h5>About me</h5>
                 <p>I am a Full Stack Engineer with a background in systems.  I recently earned a certificate in Full Stack Development from the University of Oregon, where I developed skills in JavaScript, CSS frameworks including Bootstrap and Bulma, MongoDB, Node.js and React.js.</p>
                 <p>As a creator, I enjoy building projects from start to finish. Systems engineering has prepared me to consider scale and edge cases in my work.</p>
-                <p>Connecting resources to add value is something that interests me. As part of a team of 3, I recently created a location based recommendation service for gardeners to find plants to grow in their climate. I created internal APIs which utilize external services to provide realtime search results for plant data.</p>
+                <p>Connecting resources to add value is something that interests me. Recently, I collaborated with a team of 3 other web developers created a location based recommendation service for gardeners to find plants to grow in their climate. I created internal APIs which utilize external services to provide realtime search results for plant data.</p>
                 <p>Outside of work time, I’m probably in the garden, hiking on a forest trail, trying a new recipe in the kitchen, or checking out new technologies. </p>
                 <p>I look forward to applying my energies towards a better future for all. If you have an opportunity that you think would be a good fit, you can reach me <a href='mailto:max.lemieux@gmail.com'>here</a>.</p>
               </div>
