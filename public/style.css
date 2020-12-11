@@ -35,3 +35,8 @@ footer {
     background-color: black;
     margin-bottom: 30px;
 }
+
+li.list-group-item {
+    background-color: black;
+    color: silver;
+}
