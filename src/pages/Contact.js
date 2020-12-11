@@ -8,7 +8,7 @@ const Contact = () => {
       </div>
       <div className="row">
         <div className="col-lg-7 offset-lg-1 col-sm-12">
-          <div className="border container rounded bg-light mt-3 p-3 mx-auto">  
+          <div className="border container rounded mt-3 p-3 mx-auto">  
             <h3>GitHub</h3>
             <p><a href="https://github.com/maxlemieux">https://github.com/maxlemieux</a></p>
             <h3>LinkedIn</h3>
