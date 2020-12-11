@@ -36,7 +36,7 @@ footer {
     margin-bottom: 30px;
 }
 
-ul li .list-group-item {
+.list-group-item {
     background-color: black;
     color: silver;
 }
