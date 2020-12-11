@@ -13,9 +13,9 @@ html {
     min-height: 100%; /* Make sure footer is at bottom of screen on short pages */
 }
 body {
-    background-color: black;
-    color: silver;
-    font-family: 'Roboto', sans-serif;
+    /* background-color: black;
+    color: silver; */
+    /* font-family: 'Roboto', sans-serif; */
     margin: 0 auto;
     padding-bottom: 60px; /* Match the height of the footer */
 }
@@ -27,16 +27,16 @@ footer {
     line-height: 60px; /* Vertically center the text there */  
 }
 .jumbotron {
-    background-color: black;
+    /* background-color: black; */
     padding: 1rem 2rem;
 }
 
 .card {
-    background-color: black;
+    /* background-color: black; */
     margin-bottom: 30px;
 }
 
-.list-group-item {
+/* .list-group-item {
     background-color: black;
     color: silver;
-}
+} */
